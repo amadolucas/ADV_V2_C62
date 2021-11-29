@@ -1,21 +1,29 @@
-body {
+body
+{
     text-align: center;
-}
-
-h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
 }
 
 #app {
     background-color: aliceblue;
 }
 
-#game{
-    background-color:lightcoral;
+#myCarousel
+{
+    background-color: red;
 }
 
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
 .line {
     height: 6px;
     background-color: #000;
